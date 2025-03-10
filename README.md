@@ -40,4 +40,5 @@ coding!
 - Bryan Hoyem (Developer): [GitHub](https://github.com/bhoyem) / [LinkedIn](https://www.linkedin.com/in/bhoyem/)
 - Kento Kanehira (Developer): [GitHub](https://github.com/kento-ix) / [LinkedIn](https://www.linkedin.com/in/kento-kanehira-ixx/)
 - Olivia Cameron (Developer): [GitHub](https://www.github.com/olivcamj) / [LinkedIn](https://www.linkedin.com/in/olivia-cameronj)
--  Chanae Pickett Scrum Master: [GitHub](https://github.com/chanaelynease) / [LinkedIn](https://linkedin.com/in/chanaepickett)
+- Chanae Pickett Scrum Master: [GitHub](https://github.com/chanaelynease) / [LinkedIn](https://linkedin.com/in/chanaepickett)
+- Jennifer Alexander Voyage Guide: [GitHub](https://github.com/jenny-alexander) / [LinkedIn](https://www.linkedin.com/in/jenny-alexander/)
