@@ -14,13 +14,11 @@ export default function Home() {
 						nam? Voluptate beatae exercitationem tempora officia molestias
 						expedita repellat non cupiditate.
 					</p>
-					<Link
-						href="/promptInput">
+					<Link href="/promptInput">
 						<button className="cursor-pointer mt-[31px] w-[245px] h-[60px] bg-[#C7C7C7] rounded-4xl text-[24px]">
 							Try it out
 						</button>
 					</Link>
-					
 				</div>
 
 				<div className="w-1/2 flex justify-center items-center">
