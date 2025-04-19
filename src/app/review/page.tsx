@@ -2,15 +2,13 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-
+import { BeatLoader } from 'react-spinners';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons';
 import { useStoreContext } from '../helpers/StoreContext';
 import { ButtonDirection } from '@/components/buttons/ButtonDirection';
 import { generateResponse } from '@/util/api';
-
 import MarkdownComponent from '@/components/markdown/MarkdownComponent';
-import Loading from '@/components/Loading';
 
 export default function Review() {
     const { storeValue } = useStoreContext();
@@ -75,7 +73,13 @@ export default function Review() {
                 <h3 className="font-bold mb-2">Ember Response</h3>
                 <div className="w-full p-4 bg-gray-300  rounded-lg geminiMarkdown">
                     {loading ? (
-                        <Loading />
+                        <BeatLoader
+                            size={12}
+                            color="#3498db"
+                            loading={loading}
+                            speedMultiplier={1}
+                            className="mx-auto"
+                        />
                     ) : geminiResponse ? (
                         <MarkdownComponent markdownText={geminiResponse} />
                     ) : (
